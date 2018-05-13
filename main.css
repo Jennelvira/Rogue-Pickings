@@ -1,0 +1,185 @@
+/***** Base *****/
+body{
+  font-family:'Montserrat';
+}
+#about, #menu,#locations,#gallery,#reviews,#content{
+  height:16px;
+}
+/***** Grid *****/
+.full-width{
+  width:2000px
+  margin: 35px,20px,36px,25px;
+}
+.half-width{
+  width:1200px;
+  float:left
+}
+
+.third-width{
+  width:1200px;
+}
+/***** Header *****/
+header h2{
+  position: relative;
+   top:16px;
+   left: 30px;
+   padding-bottom: 10px;
+   width: 1200px;
+   clear: both;
+   font-family: 'Montserrat',bold;
+   font-size: 20pt;
+   color: #77a466;
+
+ }
+
+ span{
+   color:black;
+ }
+
+  img{
+     height: 288px;
+     position:relative;
+     right:-30px;
+     padding-top: -15px;
+     border-top: 3px solid #77a466;
+     border-bottom: 3px solid #77a466;
+
+
+   }
+nav {
+  position: absolute;
+  top: 16px;
+  right: 40px;
+
+
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10pt;
+    font-family:'Montserrat';
+    font-weight: bold;
+    color: #77a466;
+    padding-left: 0px, 3px;
+
+  }
+
+/***** Body *****/
+ #welcome{
+   position:relative;
+   top:-20px;
+   left:30px;
+   color:#77a466;
+   font-size:16px;
+}
+p{
+  text-align: justify;
+  font:'Montserrat'
+  font-size: 16px;
+  position: relative;
+  top:-30px;
+  font-weight:crisp;
+    padding-top: -27px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+#top{
+  position:relative;
+  top:-60px;
+  left:3px;
+  width: 1200px;
+}
+
+#specials{
+  list-style:none;
+  position:relative;
+  top:-60px;
+  left:30px;
+  font:'Montserrat';
+  color:#77a466;
+  span-color:black;
+}
+#specials ul li a{
+  position:relative;
+  font:'Montserrat'
+  left:-40px;
+  color:#77a466;
+  text-decoration: none;
+
+}
+#vlone {
+    position: relative;
+    top: -199px;
+    left:480px;
+    border-left: 1px solid grey;
+    height: 212px;
+  }
+
+#reviews{
+  position: relative;
+  top:-410px;
+  left:510px;
+  font:'Montserrat'
+}
+
+#reviews p{
+  position:relative;
+  top:-8px;
+  left:-30px;
+  text-align:left;
+   padding-top:0px;
+   padding-right:820px;
+   padding-bottom:55px:
+   padding-left:26px;
+
+}
+#vltwo {
+    position: relative;
+    top: -451px;
+    left:890px;
+    border-left: 1px solid grey;
+    height: 212px;
+}
+
+#contact h6{
+  position:relative;
+  top:-665px;
+  left:920px;
+  font:'Montserrat';
+
+}
+
+#contact p{
+  position: relative;
+  top: -670px;
+  left: 890px;
+  text-align: left;
+  padding-top:0px;
+  padding-right:980px;
+  padding-bottom:
+  padding-left:
+}
+#bottom{
+  position:relative;
+  top:-640px;
+  width:1200px;
+}
+/***** Footer *****/
+#footer{
+  position:relative;
+  top: -650px;
+  left:520px;
+  color:black;
+}
+
+#footer span{
+  color:#77a466;
+  font:'Wisdom Script',
+
+}
